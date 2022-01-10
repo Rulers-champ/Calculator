@@ -1,0 +1,132 @@
+*{
+    padding:0;
+	margin:0;
+	font-family: 'Otomanopee One', sans-serif;
+	letter-spacing: 0.3rem;
+}
+
+.attribution{
+	text-align: center;
+}
+
+body{
+	background-color: #293B5F;
+	padding:2.5% 30%;
+}
+
+header{
+	display: flex;
+    justify-content: space-between;
+    color:#fff;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+
+header div{
+	font-size: 0.8rem;
+}
+
+.toggle-btn{
+	height: 1rem;
+	width:4rem;
+	border-radius: 4rem;
+	background-color: #fff;
+	margin-top:18%;
+	margin-left:3%;
+}
+
+.inner-circle-1{
+	width:1rem;
+	height:1rem;
+	background-color: #F54748;
+	border-radius: 50%;
+
+
+}
+
+.inner-circle-2{
+	margin-left: 1.5rem;
+}
+
+.inner-circle-3{
+	margin-left: 3rem;
+}
+
+.inline{
+	float:left;
+}
+
+.inline1{
+	padding-top: 0.6rem;
+	padding-right: 1rem;
+}
+
+.inline2{
+	position: relative;
+}
+
+.theme-no{
+	position: absolute;
+	bottom: 1rem;
+	right:0rem;
+}
+
+.output-tab{
+	background-color: #0A1931;
+	padding: 5% 5%;
+	text-align: right;
+	border-radius: 0.4rem;
+	
+}
+.output-tab h3{
+	font-size: 1.8rem;
+	color:#fff;
+	letter-spacing: 1px;
+}
+.panel{
+	margin-top: 5%;
+	padding: 8% 8%;
+	background-color: #0A1931;
+	border-radius: 0.2rem;
+}
+
+.panel-row{
+	display:grid;
+	grid-template-columns: repeat(4,0.3fr);
+	grid-column-gap:1.5rem ;
+	grid-row-gap: 1.5rem;
+	justify-content: space-around;
+    
+}
+.panel-last-row{
+	margin-top: 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1.5rem;
+
+}
+
+.btn{
+	background-color: #EEEEEE;
+	border-radius: 0.4rem;
+	color:#333;
+	padding: 5% 0%;
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.delete-btn{
+	background-color:#476072;
+	color:#fff;
+}
+
+.reset-btn{
+	background-color:#476072;
+	color:#fff; 
+}
+
+.equal-btn{
+	background-color: #F54748;
+	color:#fff;
+}
